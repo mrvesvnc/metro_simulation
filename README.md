@@ -8,7 +8,7 @@ pandas - Test sonuçlarının tablo formatında gösterilmesi için kullanılmı
 ace_tools - Test sonuçlarını görüntülemek için özel olarak eklenmiştir.
 
 
-BFS Algoritması (En Az Aktarma)
+## BFS Algoritması (En Az Aktarma)
 
 Genişlik Öncelikli Arama (Breadth-First Search - BFS) kullanılarak en az aktarma gerektiren rota bulunur. BFS, bir kuyruğa istasyonları ekleyerek en kısa bağlantılı yolları keşfeder.
 
@@ -24,7 +24,7 @@ Ziyaret edilmemiş komşu istasyonlar kuyruğa eklenir.
 
 Eğer hedefe ulaşılamazsa None döndürülür.
 
-A* Algoritması (En Hızlı Rota)
+## A* Algoritması (En Hızlı Rota)
 
 A* algoritması kullanılarak en kısa sürede ulaşılabilecek rota hesaplanır.
 A* algoritması, öncelik kuyruğunu kullanarak en kısa sürede ulaşılan yolu belirler.
@@ -47,8 +47,7 @@ BFS → En az aktarmalı rota bulmak için en iyi yöntemdir.
 
 A* → En kısa süreli rotayı bulmak için öncelik sıralaması yapmamıza olanak tanır.
 
-
-Örnek Kullanım ve Test Sonuçları
+## Örnek Kullanım ve Test Sonuçları
 
 AŞTİ'den OSB'ye:
 En az aktarmalı rota: AŞTİ -> Kızılay -> Ulus -> Demetevler -> OSB
@@ -70,7 +69,7 @@ Sıhhiye'den Demetevler'e:
 En az aktarmalı rota: Sıhhiye -> Gar -> Demetevler
 En hızlı rota (15 dakika): Sıhhiye -> Gar -> Demetevler
 
-Projeyi Geliştirme Fikirleri
+## Projeyi Geliştirme Fikirleri
 
 Metro haritası üzerinde görselleştirme yapılabilir.
 
